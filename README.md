@@ -7,4 +7,4 @@
 
 # Run Test
  
- * run command rspec LambdaTest
+ * run command rspec LambdaTest.rb
