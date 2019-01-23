@@ -40,12 +40,12 @@ describe "Add Product and checkout" do
 	} 	
 	puts (caps)
 	@driver = Selenium::WebDriver.for(:remote,
-		:url => "https://"+lt_user+":"+lt_appkey+"@stage-hub.lambdatest.com/wd/hub",
+		:url => "https://"+lt_user+":"+lt_appkey+"@hub.lambdatest.com/wd/hub",
 		:desired_capabilities => caps)
 	
 	@driver.manage.window.maximize
 	
-	@driver.get("https://4dvanceboy.github.io/lambdatest/lambdasampleapp.html" )
+	@driver.get("https://lambdatest.github.io/sample-todo-app/" )
 	sleep(3)		
   end
   
